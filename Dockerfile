@@ -8,4 +8,6 @@ RUN mkdir /output
 
 VOLUME /output
 
+WORKDIR /output
+
 ENTRYPOINT  ["wget"]
